@@ -50,3 +50,18 @@ rbind_matrix <br>
 > b) 3.9     131.0  2.8 <br>
 > c) 0.0     2.2    4.6 <br>
 > d) 2.0     7.0    5.1 <br> </table>
+
+## 4.Створити довільний список (list), в який включити всі базові типи. ##
+basic_list <- list(9, 9L, TRUE, 3 + 8i, "Hello world") <br>
+basic_list <br>
+> basic_list <br>
+> [[1]] <br>
+> [1] 9 <br>
+> [[2]] <br>
+> [1] 9 <br>
+> [[3]] <br>
+> [1] TRUE <br>
+> [[4]] <br>
+> [1] 3+8i <br>
+> [[5]] <br>
+> [1] "Hello world" <br>
