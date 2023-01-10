@@ -91,4 +91,11 @@ data_frame <br>
 > 1  11   aa FALSE <br>
 > 2  13   ab FALSE <br>
 > 3  14   ac  TRUE <br>
-
+## 8.	Змінити імена стовпців цього data frame. ##
+names(data_frame) <- c("number", "character", "boolean") <br>
+data_frame <br>
+> data_frame <br>
+ > number character  boolean <br>
+> 1  11   aa FALSE <br>
+> 2  13   ab FALSE <br>
+> 3  14   ac  TRUE <br>
