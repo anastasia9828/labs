@@ -3,8 +3,7 @@ setwd("C:/Users/Acer/OneDrive - НАСОА/Робочий стіл/specdata") <b
 getcsv = function(directory, file_id) { <br>
   return(read.csv(paste0(directory, "/", formatC(file_id, width = 3, flag = "0"), ".csv"))) <br>
 } <br> 
-<h4>Функція</h4> <br>
-
+<h4>Функція:</h4> <br>
 pmean = function(directory, pollutant, id = 1:332) { <br>
   all = NULL <br>
   for (i in id) { <br>
