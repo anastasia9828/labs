@@ -65,3 +65,8 @@ basic_list <br>
 > [1] 3+8i <br>
 > [[5]] <br>
 > [1] "Hello world" <br>
+## 5.	Створити фактор з трьома рівнями «baby», «child», «adult». ## 
+x <- factor(c("baby", "child", "child", "adult", "adult", "adult", "child", "baby", "baby"), levels = c("baby", "child", "adult")) <br>
+x <br>
+> [1] baby  child child adult adult adult child baby  baby <br>
+> Levels: baby child adult <br>
