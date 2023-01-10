@@ -75,8 +75,8 @@ vector_NA <- c(1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11) <br>
 index_NA <- min(which(is.na(vector_NA))) <br>
 index_NA <br>
 > index_NA <br>
-> [1] 5
-length_NA <- length(which(is.na(vector_NA)))
-length_NA
+> [1] 5 <br>
+length_NA <- length(which(is.na(vector_NA))) <br>
+length_NA <br>
 > length_NA <br>
-> [1] 3
+> [1] 3 <br>
