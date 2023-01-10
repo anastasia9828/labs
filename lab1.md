@@ -38,12 +38,12 @@ cbind_matrix <br>
 > 3) 0.0     2.2    4.6 <br>
 > 4) 2.0     7.0    5.1 <br> </table>
 
-a <- c(0.5, 1.3, 3.5)
-b <- c(3.9, 131, 2.8)
-c <- c(0, 2.2, 4.6)
-d <- c(2, 7, 5.1)
-rbind_matrix = rbind(a, b, c, d)
-rbind_matrix
+a <- c(0.5, 1.3, 3.5) <br>
+b <- c(3.9, 131, 2.8) <br>
+c <- c(0, 2.2, 4.6) <br>
+d <- c(2, 7, 5.1) <br>
+rbind_matrix = rbind(a, b, c, d) <br>
+rbind_matrix <br>
 > <table>
 >    1        2      3 <br>
 > a) 0.5     1.3    3.5 <br>
