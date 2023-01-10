@@ -73,7 +73,7 @@ corr = function(directory, threshold = 0) { <br>
   return(corelations) <br>
 } <br>
 cr <- corr("specdata", 150) <br>
-head(cr); summary(cr) <br>
+head(cr); summary(cr) 
 > [1] -0.01895754 -0.14051254 -0.04389737 -0.06815956 -0.12350667 -0.07588814 <br>
-  >   Min.  1st Qu.   Median     Mean  3rd Qu.     Max.  <br>
+>   Min.  1st Qu.   Median     Mean  3rd Qu.     Max.  <br>
 > -0.21057 -0.04999  0.09463  0.12525  0.26844  0.76313  <br>
