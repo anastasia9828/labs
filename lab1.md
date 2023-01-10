@@ -86,9 +86,9 @@ b <- c("aa", "ab", "ac") <br>
 c <- c(FALSE, FALSE, TRUE) <br>
 data_frame <- data.frame(num = a, char = b, bool = c) <br>
 data_frame <br>
-> data_frame
- > num char  bool
-> 1  11   aa FALSE
-> 2  13   ab FALSE
-> 3  14   ac  TRUE
+> data_frame <br>
+ > num char  bool <br>
+> 1  11   aa FALSE <br>
+> 2  13   ab FALSE <br>
+> 3  14   ac  TRUE <br>
 
