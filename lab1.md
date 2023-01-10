@@ -31,6 +31,7 @@ b <- c(1.3, 131, 2.2, 7) <br>
 c <- c(3.5, 2.8, 4.6, 5.1) <br>
 cbind_matrix <- cbind(a, b, c) <br>
 cbind_matrix <br> 
+
 > <table>
 >    a        b      c <br>
 > 1) 0.5     1.3    3.5 <br>
