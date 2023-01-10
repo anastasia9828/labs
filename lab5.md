@@ -12,5 +12,6 @@ pmean = function(directory, pollutant, id = 1:332) { <br>
   return(mean(all, na.rm = TRUE)) <br>
 } <br>
 pmean("specdata", "sulfate", 1:3) <br>
+
 > [1] 4.389262
 
