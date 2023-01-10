@@ -170,3 +170,10 @@ tail(y, 10)
 y$b[10]
 
 > [1] 10
+
+y$cc 
+
+ > [1] "x" "m" "v" "u" "w" "w" "b" "u" "v" "g" "t" "y" "z" "p" "z" "e" "v" "e" "q" "h" "h" "h" "p" "r" "j" "a" "d" "k" "u" "e" "m" <br>
+ > [32] "o" "n" "f" "n" "x" "x" "w" "s" "n" "b" "r" "a" "g" "y" "l" "f" "b" "m" "d" "u" "t" "m" "d" "y" "j" "d" "j" "v" "d" "a" "d" <br>
+ > [63] "g" "z" "z" "v" "a" "w" "i" "t" "f" "g" "i" "f" "j" "t" "d" "y" "b" "y" "p" "j" "c" "o" "z" "h" "t" "e" "c" "v" "k" "d" "e" <br>
+ > [94] "j" "a" "n" "e" "p" "u" "u"
