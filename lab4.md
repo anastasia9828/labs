@@ -55,3 +55,7 @@ subset <br>
 
 mean(subset$Solar.R)
 > [1] 212.8
+
+## 8. Яке середнє значення (mean) для «Temp» для червня («Month» дорівнює 6)? ##
+mean(subset(csv, (csv$Month == 6))$Temp)
+> [1] 79.1
