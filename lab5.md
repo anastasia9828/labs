@@ -38,3 +38,11 @@ complete("specdata", 1)
 >   id nobs <br>
 > 1  1  117 <br>
 
+complete("specdata", c(2, 4, 8, 10, 12))
+>   id nobs <br>
+> 1  2 1041 <br>
+> 2  4  474 <br>
+> 3  8  192 <br>
+> 4 10  148 <br>
+> 5 12   96 <br>
+
