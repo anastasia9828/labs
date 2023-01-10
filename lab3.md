@@ -5,4 +5,4 @@ add2 <- function(a, b) { <br>
   return(a + b) <br>
 } <br>
 add2(9,13) <br>
-
+> [1] 22
