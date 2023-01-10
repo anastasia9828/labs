@@ -189,3 +189,6 @@ z[!is.na(z)]
 
 mean(z[!is.na(z)])
 > [1] 3
+
+mean(z) 
+> [1] NA
