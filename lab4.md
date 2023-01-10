@@ -37,3 +37,7 @@ length(which(is.na(csv$Ozone)))
 ## 6. Яке середнє (mean) стовпця «Ozone». Виключити «NA» значення. ##
 mean(csv$Ozone[!is.na(csv$Ozone)])
 > [1] 42.12931
+
+## 7. Виведіть частину набору даних (subset) зі значенням «Ozone» > 31 та «Temp» > 90. Яке середнє (mean) значень «Solar.R» в цьому наборі даних (subset)? ##
+subset = subset(csv, (csv$Ozone > 31) & (csv$Temp > 90)) <br>
+subset <br>
