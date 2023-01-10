@@ -3,7 +3,7 @@ setwd("C:/Users/Acer/OneDrive - НАСОА/Робочий стіл/specdata") <b
 getcsv = function(directory, file_id) { <br>
   return(read.csv(paste0(directory, "/", formatC(file_id, width = 3, flag = "0"), ".csv"))) <br>
 } <br> 
-<h4>Функція:</h4> 
+<h4>Функція pmean:</h4> 
 pmean = function(directory, pollutant, id = 1:332) { <br>
   all = NULL <br>
   for (i in id) { <br>
@@ -25,6 +25,7 @@ pmean("specdata", "nitrate")
 > [1] 1.702932
 
 ## 2.	Написати функцію complete, яка виводить кількість повних спостережень(the number of completely observed cases) для кожного файлу. Функція приймає два аргументи: «Directory» та «id» та повертає data frame, в якому перший стовпчик – ім’я файлу, а другий – кількість повнихспостережень. ##
+<h4>Функція complete:</h4>
 complete = function(directory, id = 1:332) { <br> 
   nobs = NULL <br>
   for (i in id) { <br>
@@ -32,3 +33,4 @@ complete = function(directory, id = 1:332) { <br>
   } <br>
   return(data.frame(id, nobs)) <br>
 } <br>
+
