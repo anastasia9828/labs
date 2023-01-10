@@ -76,3 +76,7 @@ index_NA <- min(which(is.na(vector_NA))) <br>
 index_NA <br>
 > index_NA <br>
 > [1] 5
+length_NA <- length(which(is.na(vector_NA)))
+length_NA
+> length_NA <br>
+> [1] 3
