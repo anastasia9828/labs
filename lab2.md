@@ -35,8 +35,8 @@ v[v > 0] <br>
 
 ## 2. Створіть фрейм (data frame) командою ##
 y <- data.frame(a = rnorm(100), b = 1:100, cc = sample(letters, 100, replace = TRUE)) <br>
-y <br>
->              a   b cc <br>
+y 
+> a   b cc <br>
 > 1    0.52684013   1  x <br>
 > 2   -0.30399356   2  m <br>
 > 3   -0.33158564   3  v <br>
