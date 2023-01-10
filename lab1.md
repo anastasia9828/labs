@@ -16,3 +16,12 @@ logical_vector <- rep(TRUE, 100) <br>
 > numeric_vector <- 5:75 <br>
 > vector_with_math <- c(pi, 2.71, 0, 13) <br>
 > logical_vector <- rep(TRUE, 100) <br>
+## 3.Створити наступну матрицю за допомогою matrix, та за допомогою cbind або rbind ##
+A <- matrix(c(0.5, 3.9, 0, 2, 1.3, 131, 2.2, 7, 3.5, 2.8, 4.6, 5.1), nrow = 4, ncol = 3)
+A
+> A
+     [,1]  [,2] [,3]
+[1,]  0.5   1.3  3.5
+[2,]  3.9 131.0  2.8
+[3,]  0.0   2.2  4.6
+[4,]  2.0   7.0  5.1
