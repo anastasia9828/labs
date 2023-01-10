@@ -85,3 +85,8 @@ head(cr); summary(cr)
 > Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
 > -0.17623 -0.03109  0.10021  0.13969  0.26849  0.76313 
 
+cr <- corr("specdata", 5000) <br>
+head(cr); summary(cr); length(cr)
+> numeric(0)
+> Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+> [1] 0
