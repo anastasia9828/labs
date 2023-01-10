@@ -70,3 +70,9 @@ x <- factor(c("baby", "child", "child", "adult", "adult", "adult", "child", "bab
 x <br>
 > [1] baby  child child adult adult adult child baby  baby <br>
 > Levels: baby child adult <br>
+## 6.	Знайти індекс першого значення NA в векторі 1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11. Знайти кількість значень NA. ##
+vector_NA <- c(1, 2, 3, 4, NA, 6, 7, NA, 9, NA, 11) <br>
+index_NA <- min(which(is.na(vector_NA))) <br>
+index_NA <br>
+> index_NA
+> [1] 5
