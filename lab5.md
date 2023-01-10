@@ -24,3 +24,11 @@ pmean("specdata", "sulfate", 55)
 pmean("specdata", "nitrate")
 > [1] 1.702932
 
+## 2.	Написати функцію complete, яка виводить кількість повних спостережень(the number of completely observed cases) для кожного файлу. Функція приймає два аргументи: «Directory» та «id» та повертає data frame, в якому перший стовпчик – ім’я файлу, а другий – кількість повнихспостережень. ##
+complete = function(directory, id = 1:332) { <br> 
+  nobs = NULL <br>
+  for (i in id) { <br>
+    nobs = c(nobs, nrow(na.omit(getcsv(directory, i)))) <br>
+  } <br>
+  return(data.frame(id, nobs)) <br>
+} <br>
