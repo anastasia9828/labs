@@ -33,3 +33,7 @@ tail(csv, 10)
 ## 5. Як багато значень «NA» в стовпці «Ozone»? ##
 length(which(is.na(csv$Ozone)))
 > [1] 37
+
+## 6. Яке середнє (mean) стовпця «Ozone». Виключити «NA» значення. ##
+mean(csv$Ozone[!is.na(csv$Ozone)])
+> [1] 42.12931
