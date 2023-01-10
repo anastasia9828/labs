@@ -80,7 +80,7 @@ length_NA <- length(which(is.na(vector_NA))) <br>
 length_NA <br>
 > length_NA <br>
 > [1] 3 <br>
-## 7.	Створити довільний data frame та вивести в консоль. ## <br>  
+## 7.	Створити довільний data frame та вивести в консоль.## <br>  
 a <- c(11, 13, 14) <br>
 b <- c("aa", "ab", "ac") <br>
 c <- c(FALSE, FALSE, TRUE) <br>
