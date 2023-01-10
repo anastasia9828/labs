@@ -4,3 +4,8 @@ logical <- TRUE <br>
 numeric <- 5 <br>
 integer <- 5L <br>
 complex <- 1 + 4i <br>
+> character <- "example"
+> logical <- TRUE
+> numeric <- 5
+> integer <- 5L
+> complex <- 1 + 4i
