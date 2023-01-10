@@ -59,3 +59,7 @@ mean(subset$Solar.R)
 ## 8. Яке середнє значення (mean) для «Temp» для червня («Month» дорівнює 6)? ##
 mean(subset(csv, (csv$Month == 6))$Temp)
 > [1] 79.1
+
+## 9. Яке максимальне значення «Ozone» для травня («Month» дорівнює 5)? ##
+max(subset(csv, (csv$Month == 5))$Ozone, na.rm = TRUE)
+> [1] 115
