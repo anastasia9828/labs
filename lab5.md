@@ -34,3 +34,7 @@ complete = function(directory, id = 1:332) { <br>
   return(data.frame(id, nobs)) <br>
 } <br>
 
+complete("specdata", 1)
+>   id nobs <br>
+> 1  1  117 <br>
+
