@@ -15,3 +15,6 @@ pmean("specdata", "sulfate", 1:3) <br>
 
 > [1] 4.389262
 
+pmean("specdata", "sulfate", 1:10)
+> [1] 4.064128
+
